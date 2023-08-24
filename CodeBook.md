@@ -14,21 +14,3 @@ First, the script will pull the [data](https://d396qusza40orc.cloudfront.net/get
 - Activity: The type of activity
 
 All other variables are unchanged from their original state except for their names, which have been altered to be more clear. You can find all of the original variable descriptions by clicking [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-
-
-
-
-## tidy_mean_dataset.txt
-
-### Process & Transformation
-
-The run_analysis.R script handles all of the pulling and transformation of the data. How it operates is outlined below:
-
-After the first tidy data set is complete, group by Activity and Subject, and then find the mean for every other feature.
-
-### Variable Descriptions
-
-The Subject and Activity variables are the same as the previous tidy dataset.
-
-All other variables are the mean of their respective feature over the given Subject and Activity combination. You can find all of the original variable descriptions by clicking [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-
