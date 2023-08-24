@@ -89,4 +89,4 @@ names(meanData) <- c('Activity', 'Subject', paste('AVG -', otherFeatures))
 ### Save clean data ###
 # Write cleaned datasets to file
 write.table(data, file = "./tidy_dataset.txt", sep = " ")
-write.table(meanData, file = "./tidy_mean_dataset.txt", sep = " ")
+write.table(meanData, file = "./tidy_mean_dataset.txt", sep = " ", row.names = FALSE)
